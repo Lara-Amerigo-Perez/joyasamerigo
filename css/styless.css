@@ -1,0 +1,183 @@
+* {
+    margin: auto;
+    font-family: sans-serif; 
+}
+
+
+
+/*MENU DE NAVEGACION*/
+
+#menu a {
+    font-size: 20px;
+    margin: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/*IMAGENES SLIDER*/
+
+#carouselExample img {
+    background-size: cover;
+
+
+}
+
+/*TARJETAS DE IMAGENES*/
+.img-container img {
+    transition: transform 0.5s ease;
+    /* Transición suave */
+}
+
+/* Efecto de zoom al pasar el ratón */
+.img-container:hover img {
+    transform: scale(1.08);
+    /* Ajusta el nivel de zoom (1.2 = 20% más grande) */
+
+}
+
+/*MAIN ESLOGAN*/
+
+#eslogan {
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+/*BANNER CATALOGO*/
+
+#banner_catalogo {
+    background-image: url(../img/banner4_catalogo.png);
+    background-size: cover;
+    height: 30vh;
+    background-position: center calc(20% - 18px);
+    background-color: rgba(255, 255, 255, 0.564);
+    background-blend-mode: soft-light;
+
+}
+
+#banner-rebajas {
+    background-image: url(../img/banner-rebajas.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center calc(60% - 18px);
+    background-color: rgba(255, 255, 255, 0.564);
+    background-blend-mode: soft-light;
+
+}
+
+#text-catalogo {
+    color: #fff;
+    text-shadow: 2px 4px 6px #3f3f3f;
+    padding-top: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+#text-catalogo-pq {
+    color: #fff;
+    text-shadow: 2px 4px 6px #3f3f3f;
+    padding-top: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+#text-catalogo-rebajas {
+    color: #fff;
+    text-shadow: 2px 4px 10px #340505;
+    padding-top: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#text-catalogo-rebajas h1 {
+    font-size: 40px;
+}
+
+#text-catalogo h1 h2 {
+    font-size: 40px;
+}
+
+/*BOTONES-BANNER CATALOGO*/
+
+#text-catalogo button {
+    text-align: center;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 11px;
+    padding: .35rem 2rem;
+    font-size: .825rem;
+    font-weight: 800;
+    margin: 20px;
+    background-color: transparent;
+    box-shadow: 2px 4px 10px #3f3f3f;
+}
+
+#text-catalogo-pq button {
+    text-align: center;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 11px;
+    padding: .35rem 2rem;
+    font-size: .725rem;
+    font-weight: 600;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 2px 4px 10px #3f3f3f;
+}
+
+
+
+
+
+#banner_anillos {
+    background-image: url(../img/anillos/banneranillos.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center calc(48% - 18px);
+    background-color: rgba(255, 255, 255, 0.504);
+    background-blend-mode: soft-light;
+
+}
+
+#banner_collar {
+    background-image: url(../img/colgantes/bannercollar.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center calc(42% - 10px);
+    background-color: rgba(255, 255, 255, 0.504);
+    background-blend-mode: soft-light;
+
+}
+
+#banner_pulseras {
+    background-image: url(../img/pulseras/bannerpulseras.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center calc(45% - 8px);
+    background-color: rgba(255, 255, 255, 0.504);
+    background-blend-mode: soft-light;
+
+}
+
+
+/*FORMULARIO PAG CONTACTO*/
+
+form label {
+
+    color: #fff;
+}
+
+
+/*SOBRE NOSOTRAS BANNER*/
+
+#banner_sn {
+    background-image: url(../img/banner-sn.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center calc(28% - 10px);
+    background-color: rgba(255, 255, 255, 0.504);
+    background-blend-mode: soft-light;
+}
